@@ -65,7 +65,7 @@ class RandomDigitSimulationTable extends StatelessWidget {
                 ),
                 DataColumn(
                   label: Text(
-                    'Type of\nNews Day',
+                    'Type of\n Day',
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 13,

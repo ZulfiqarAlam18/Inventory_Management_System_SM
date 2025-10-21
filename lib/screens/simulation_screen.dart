@@ -137,7 +137,7 @@ class _SimulationScreenState extends State<SimulationScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Newspaper Inventory Simulation'),
+        title: const Text('Bookstore Inventory Simulation'),
         elevation: 2,
         actions: [
           IconButton(
@@ -217,7 +217,7 @@ class _SimulationScreenState extends State<SimulationScreen> {
             Icon(Icons.newspaper, size: 64, color: Colors.black),
             const SizedBox(height: 16),
             Text(
-              'Welcome to Newspaper Simulation',
+              'Welcome to Bookstore Simulation',
               style: Theme.of(context).textTheme.headlineSmall?.copyWith(
                 fontWeight: FontWeight.bold,
                 color: Colors.black,
@@ -295,7 +295,7 @@ class _SimulationScreenState extends State<SimulationScreen> {
             ),
             _buildInfoRow(
               'Daily Stock Level:',
-              '${parameters!.stockLevel} newspapers',
+              '${parameters!.stockLevel} books',
             ),
             _buildInfoRow(
               'Simulation Days:',
@@ -557,7 +557,7 @@ class _SimulationScreenState extends State<SimulationScreen> {
                           borderRadius: BorderRadius.circular(6),
                         ),
                         child: Text(
-                          '$optimalStockLevel newspapers',
+                          '$optimalStockLevel books',
                           style: const TextStyle(
                             fontSize: 16,
                             fontWeight: FontWeight.bold,
@@ -671,7 +671,7 @@ class _SimulationScreenState extends State<SimulationScreen> {
                 ),
                 DataColumn(
                   label: Text(
-                    'Type of\nNews Day',
+                    'Type of\n Day',
                     style: TextStyle(fontWeight: FontWeight.bold, fontSize: 13),
                     textAlign: TextAlign.center,
                   ),

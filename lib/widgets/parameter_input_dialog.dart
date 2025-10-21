@@ -77,21 +77,21 @@ class _ParameterInputDialogState extends State<ParameterInputDialog> {
             children: [
               _buildParameterField(
                 controller: _costPriceController,
-                label: 'Cost Price per Newspaper',
+                label: 'Cost Price per book',
                 icon: Icons.attach_money,
                 prefix: '\$',
               ),
               const SizedBox(height: 12),
               _buildParameterField(
                 controller: _sellingPriceController,
-                label: 'Selling Price per Newspaper',
+                label: 'Selling Price per book',
                 icon: Icons.sell,
                 prefix: '\$',
               ),
               const SizedBox(height: 12),
               _buildParameterField(
                 controller: _scrapPriceController,
-                label: 'Unsold/Scrap Price per Newspaper',
+                label: 'Unsold/Scrap Price per book',
                 icon: Icons.delete_outline,
                 prefix: '\$',
               ),
@@ -105,7 +105,7 @@ class _ParameterInputDialogState extends State<ParameterInputDialog> {
               const SizedBox(height: 12),
               _buildParameterField(
                 controller: _stockLevelController,
-                label: 'Bundles of Newspapers Bought Daily',
+                label: 'Book Bought Daily',
                 icon: Icons.inventory,
                 prefix: '',
               ),
